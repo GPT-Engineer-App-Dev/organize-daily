@@ -7,7 +7,7 @@ const Index = () => {
   const [newTask, setNewTask] = useState("");
 
   const addTask = () => {
-    if (newTask.trim() !== "") {
+    if (newTask.trim() !== "")) {
       setTasks([...tasks, { text: newTask, completed: false }]);
       setNewTask("");
     }
