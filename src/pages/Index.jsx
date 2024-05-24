@@ -28,7 +28,7 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" py={10}>
       <VStack spacing={4} w="100%">
-        <Heading as="h1" size="2xl" mb={6}>Todo App</Heading>
+        <Heading as="h1" size="2xl" mb={6}>Success!</Heading>
         <HStack w="100%">
           <Input 
             placeholder="Add a new task" 
